@@ -7,21 +7,13 @@ for (let index = 0; index < cantidad; index) {
   console.log(texto);
 } 
 */
-/* let cantidad = prompt('INGRESE CANTIDAD DE REPETICIONES');
+
+/* let cantidad = parseInt(prompt('INGRESE CANTIDAD DE REPETICIONES'));
 let texto = prompt('INGRESE TEXTO A REPETIR');
 
-for (let index = 1; index <= cantidad; index++) {
+for (let index = 0; index < cantidad; index++) {
   console.log(texto);
 }  */
-// for (let index = 1; index - 1 < cantidad; index++) {
-//   console.log(texto);
-// } 
-
-// for (let index = 0; index < cantidad; index++) {
-//   console.log(texto);
-// } 
-
-
 
 
 // ¿Qué tiene que hacer este código?
@@ -38,15 +30,24 @@ for (let index = 0; index < lados; index++) {
   alert("lado");
 } 
 */
-
-let lados = prompt('INGRESE CANTIDAD DE LADOS');
-let contador = 0
-for (let index = 1; index <= lados; index++) {
-  if (index < 2) {
-    alert("Con esta cantidad de lados, no sos un polígono")
+// PRIVILILEGIOS
+let nivel = parseInt(prompt('INGRESE SU NIVEL'));
+// nivel 1: acceso al bar
+// nivel 2: acceso al sector vip
+// nivel 3:cuarto privado
+for (let index = 0; index <= nivel; index++) {
+  if(index===1){
+    alert("acceso al bar")
+  } else if(index===2){
+    alert("acceso al sector vip")
+  } else if(index===3){
+    alert("acceso al cuarto privado")
+  } else{
+    alert("no existe este nivel")
+    break
   }
-  alert(`lado #${++contador}`);
 } 
+
 
 // ¿Qué tiene que hacer este código?
 // ¿Por qué no cumple con su función?
