@@ -107,11 +107,11 @@ const evaluarRespuesta = ()=>{
   }
 }
 const generarEvaluacion = ()=>{
-  let eval = "Habiendo realizado el test aca esta tu resultado:"
+  let evaluar = "Habiendo realizado el test aca esta tu resultado:"
   for(let i = 0; i<trivia.preguntas.length; i++){
-    eval += `\n ${i+1} - Esperado: ${trivia.preguntas[i].respuesta.correcta} vos ingresaste ${trivia.preguntas[i].respuesta.usuario} lo que es ${trivia.preguntas[i].respuesta.estado}.`
+    evaluar += `\n ${i+1} - Esperado: ${trivia.preguntas[i].respuesta.correcta} vos ingresaste ${trivia.preguntas[i].respuesta.usuario} lo que es ${trivia.preguntas[i].respuesta.estado}.`
   }
-  return eval
+  return evaluar
 }
 const evaluarPuntuacion = ()=>{
   if(trivia.puntuacion.actual>trivia.puntuacion.record){

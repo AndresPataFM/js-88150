@@ -22,19 +22,37 @@ Crear una función que procese la información obtenida.
 
 Crear una función para mostrar el resultado final */
 
-/* function exponente(){
-  const numero = Number(prompt("Ingrese el número base"))
-  const potencia = parseInt(prompt("Ingrese el número de la potencia"))
-  let rta = 1 
-  if(potencia === 0){
-    return 1
-  }else if(potencia<0){
-    alert("No es tan avanzado este programa")
-    return NaN
-  }else{
-    for(let i = 0; i < potencia; i++){
-      rta *= numero
-    }
+let nro = 0
+
+function pedirNro(){
+  // Le pide un nro al usuario y lo valida
+  // pido nro
+  nro = parseInt(prompt("Ingrese un número entero para ver si es par o impar"))
+  while(isNaN(nro)){
+    // valido
+    nro = parseInt(prompt("Ingrese un número entero para ver si es par o impar. Intente nuevamente"))
   }
-  return rta
-} */
+}
+
+const evaluarNro = ()=>{
+  // utiliza resto ap[ra evaluar si es par o impar. Un resto de 0 es un número par.]
+  if(nro%2===0){
+    return "par"
+  } else {
+    return "impar"
+  }
+}
+
+const respuesta = ()=> `El número ${nro} es ${evaluarNro()}`
+// Pasa la información a texto para el usuario
+
+const app =()=>{
+  //  funcion que contiene toda la lógica a ejecutar
+  pedirNro()
+  console.log(respuesta())
+}
+
+// ---
+
+
+app()

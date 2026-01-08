@@ -10,20 +10,13 @@ precioConIVA(importe, IVA)
 // ¿Qué tiene que hacer este código?
 // ¿Por qué no cumple con su función?
 
-/* const IVA = 1.21;
+const IVA = 1.21;
 
-let importe = parseFloat(prompt("Ingresa el importe sobre el cual quieres calcular el IVA:"));
+// let importe = Number(prompt("Ingresa el importe sobre el cual quieres calcular el IVA:"));
 
-const precioConIVA = imp => imp * IVA;
+// const precioConIVA = (imp, iva) => imp * iva;
 
-alert( precioConIVA(importe) ) */
-
-/* const IVA = 1.21;
-let importe = 200;
-
-const precioConIVA = (imp, iva) => imp * iva;
-
-console.log(precioConIVA(importe, IVA) ) */
+// console.log(precioConIVA(importe, IVA) );
 
 // Actividad 02:
 
@@ -41,16 +34,12 @@ console.log("El costo de la póliza es: $", valorPoliza);
 // ¿Por qué no cumple con su función?
 // ¿Qué propuesta podrías hacer para que tenga sentido su uso?
 
-const VALOR_M2 = 31.83; //valor fijo del seguro por Metro 2
-const COMISION = 1.025; //comisión del 2.5%
+const valorM2 = 31.83; //valor fijo del seguro por Metro 2
+const comision = 1.025; //comisión del 2.5%
+const m2Preguntados = prompt("Ingresa los Metros cuadrados de la propiedad a cotizar un seguro:");
 
-const m2 = Number(prompt("Ingresa los Metros cuadrados de la propiedad a cotizar un seguro:"));
+const calcularPoliza = metros2 =>  metros2 * valorM2 * comision
 
-const calcularPoliza = metros2 => { 
-  return metros2 * VALOR_M2 * COMISION;
-};
-
-
-const valorPoliza = calcularPoliza(m2);
+const valorPoliza = calcularPoliza(m2Preguntados);
 
 console.log("El costo de la póliza es: $", valorPoliza); 
