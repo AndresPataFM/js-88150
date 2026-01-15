@@ -7,7 +7,7 @@
 
 // 1: Entidades
 //      1a: Clases/funciones constructoras (recomiendo más el uso de clases)
-//      2b: Objetos
+//      2b: Objetos y/o Arrays
 // 2: Variables
 // 3: Funciones (evitar llamar funciones antes de que estas sean declaradas, ej: si usas la función en la línea 24, no la declares en la 37)
 // 4: Codigo que se ejecute automáticamente

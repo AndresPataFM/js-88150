@@ -26,7 +26,7 @@ Comienza a crear la estructura inicial de tu proyecto integrador. Deberás:
 _La estructura HTML está completa y ejecutada con buenas prácticas o utiliza el el starter template de Bootstrap u otro framework para el uso adecuado de HTML5 *. El archivo JS está correctamente referenciado en el HTML._
 * La estructura HTML está completa y ejecutada con buenas prácticas o utiliza el el starter template de Bootstrap u otro framework para el uso adecuado de
 HTML5. _Mientras no usen etiquetas sin cerrar o pongan elementos fuera del body esta bien_
-* El archivo JS está correctamente referenciado en el HTML (sea al final del body o mediante el atributo defer).
+* El archivo JS está correctamente referenciado en el HTML (sea al final del body o mediante el atributo defer en el head).
 * El link relativo funciona bien
 
 ### Algoritmos
@@ -51,3 +51,15 @@ _Los nombres de las funciones son claros y dan a entender que acción realizan. 
 * Buenos comentarios de código.
 * Indentación consistente y que muestra relación padre/hijo.
 * No tener errores de consola causado por su js.
+
+## Calificación
+
+Cada criterio puede tener el aspecto alcanzado de:
+* Realizado (33 pt)
+* Incompleto (15 pt)
+* No Realizado (0 pt)
+
+En total se obtiene:
+* Óptimo (80pt-100pt)
+* Correcto (51pt-79pt)
+* Bajo (0pt-50pt)
