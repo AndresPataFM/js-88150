@@ -138,14 +138,18 @@ console.log(numeritos)
 numeritos.sort()
 console.log(numeritos) */
 
-llamarPaciente(nombres)//abuso de hoisting
+// llamarPaciente(nombres)//abuso de hoisting
 
-function llamarPaciente(lista){
-  if(lista.length === 0 ){
-    alert("No hay más pacientes")
-  } else {
-    const paciente = lista.shift()
-    alert(`${paciente} esta siendo llamado.`)
-    alert(`Quedan ${lista.length} paciente en espera.`)
-  }
-} 
+// function llamarPaciente(lista){
+//   if(lista.length === 0 ){
+//     alert("No hay más pacientes")
+//   } else {
+//     const paciente = lista.shift()
+//     alert(`${paciente} esta siendo llamado.`)
+//     alert(`Quedan ${lista.length} paciente en espera.`)
+//   }
+// } 
+
+// for(const nom of nombres){
+//   console.log(nom)
+// }
