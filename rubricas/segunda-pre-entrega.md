@@ -36,7 +36,7 @@ _Se capturan una o más entradas ingresadas por el usuario con prompt(). Se efec
   * NO SE UTILIZAN EVENTOS MEDIANTE ATRIBUTO HTML SEA DESDE EL LADO DEL HTML O DEL JS
 * Se penaliza el uso de: alert, prompt, confirm, console.log/table (esta perfecto usar console para testear pero nunca tiene que estar en la versión entregada)
   * console.warn para cosas específicas de programador está bien.
-* utilizar minimamente 1 evento.
+* Utilizar minimamente 1 evento.
 
 ### Escalabilidad
 _Se declaran funciones con parámetros para definir instrucciones con una tarea específica. Se emplean arrays para agrupar valores relacionados. Se definen objetos con propiedades y métodos relevantes al contexto._
@@ -70,6 +70,7 @@ _Los nombres de variables. funciones y objetos son significativos para el contex
 
 * Consideren crear un README.md que describa al proyecto y las herramientas utilizadas.
 * Consideren utilizar git/github.
+* Nombre de proyecto que indique de que es el simulador
 
 ## Calificación
 

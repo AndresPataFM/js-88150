@@ -18,7 +18,7 @@ Ejercicio 2: Usa el método `filter` para obtener todos los nombres que tienen m
 const nombres = ['Ana', 'Juan', 'María', 'Luisa', 'Pedro', 'Pablo'];
 const nombresLargos = nombres.filter((name) => name.length > 5);
 */
-const nombres = ['Ana', 'Juan', 'María', 'Luisa', 'Pedro', 'Pablo', "Andrés"];
+const nombres = ['Ana', 'Juan', 'María', 'Luisa', 'Pedro', 'Pablo', "Andrés", "Johanna"];
 const nombresLargos = nombres.filter((name) => name.length > 5);
 
 console.log(nombresLargos)
