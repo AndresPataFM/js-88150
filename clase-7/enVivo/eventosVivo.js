@@ -2,16 +2,79 @@
 // Un evento es una acción que ejecuta código js a partir de una acción del usuario
 // Responder a las acciones del usuario, mediante js
 
-/* const botoncito = document.getElementById("botoncito")
+const botoncito = document.getElementById("botoncito")
 const texto = document.getElementById("texto")
 const formulario = document.getElementById("formulario")
 const keylogger = document.getElementById("keylogger")
 const mensaje = document.getElementById("mensaje")
 const respuesta = document.getElementById("respuesta")
 
-botoncito.addEventListener("click", ()=>{
+/* botoncito.addEventListener("click", ()=>{
   mensaje.innerText = "No toques al botón, no le gusta"
-}) */
+})  */
+
+
+keylogger.addEventListener("keydown", (evento)=>{
+  console.log(keylogger.value)
+  console.log(evento.key)
+  // if(isNaN(parseInt(evento.key))){
+  //   evento.preventDefault()
+  // }
+})
+
+
+formulario.addEventListener("submit", (e)=>{
+  e.preventDefault()
+
+  console.log(e.target[0].value)
+  texto.innerText = e.target[0].value
+  // console.log("submit",keylogger.value)
+  // texto.innerText = keylogger.value
+
+
+  keylogger.value=""
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // formulario.addEventListener("submit",(evento)=>{
 //   evento.preventDefault()

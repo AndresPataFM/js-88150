@@ -16,3 +16,15 @@ Preguntas guía
 ¿Cómo harías para lograr que el código se ejecute con éxito?
 
 */
+
+const frutas = ["manzana", "ananá", "pera", "frutilla"]
+function cargarDOM() {
+  const titulo = document.querySelector("#titulo")
+  const listado = document.querySelector("#listado")
+  titulo.innerText = "www.mandafruta.com"
+  frutas.forEach(fruta => {
+    listado.innerHTML += `<li>${fruta}</li>`
+  })
+}
+
+cargarDOM()
