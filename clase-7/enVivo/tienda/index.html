@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Comida rápida</h1>
+  <h2>Productos</h2>
+  <ol id="listaProd">
+
+  </ol>
+  <h2>Carrito</h2>
+  <ul id="listaCarrito">
+
+  </ul>
+  <div id="total"></div>
+  <div id="agradecimiento"></div>
+  <!-- <button onclick="alert('Gracias por su compra')">Comprar</button> Esto esta mal, no lo usen -->
+  <form id="formularioCompra">
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre">
+    <label for="apellido">Apellido:</label>
+    <input type="text" name="apellido" id="apellido">
+    <!-- <button id="btnCompra">Comprar</button> -->
+    <input type="submit" value="Comprar" id="btnCompra">
+  </form>
+  <script src="./tienda.js"></script>
+</body>
+</html>
