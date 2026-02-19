@@ -3,45 +3,47 @@
 
 const btnSwal = document.querySelector("#btnSwal")
 
-// btnSwal.addEventListener("click",function(){
-// /*   Swal.fire({
-//     title: 'Epa!',
-//     text: 'No me toques',
-//     icon: 'warning',
-//     showCancelButton: true,
-//     confirmButtonText: 'Entiendo',
-//     cancelButtonText: "Voy a seguir haciendolo"
-//   }).then((result) => {
-//   if (result.isConfirmed) {
-//     swal.fire({
-//       title: "Gracias",
-//       text: "Es solo que no me gusta que me toquen.",
-//       icon: "success"
-//     });
-//   } else  {
-//     swal.fire({
-//       title: "Atrevido",
-//       text: "Voy  llamar a la policia",
-//       icon: "error"
-//     });
-//   }}) */
-//   Swal.fire({
-//     icon: "success",
-//     toast: true,
-//     position: "top-end",
-//     showConfirmButton: false,
-//     timer: 3000,
-//     timerProgressBar: true,
-//     title: 'Exito',
-//     text: 'Producto agregado al carrito',
-//   });
-// })
+btnSwal.addEventListener("click",function(){
+/*   Swal.fire({
+    title: 'Epa!',
+    text: 'No me toques',
+    icon: 'warning',
+    showCancelButton: true,
+    confirmButtonText: 'Entiendo',
+    cancelButtonText: "Voy a seguir haciendolo"
+  }).then((result) => {
+  if (result.isConfirmed) {
+    swal.fire({
+      title: "Gracias",
+      text: "Es solo que no me gusta que me toquen.",
+      icon: "success"
+    });
+  } else  {
+    swal.fire({
+      title: "Atrevido",
+      text: "Voy  llamar a la policia",
+      icon: "error"
+    });
+  }}) */
+  Swal.fire({
+    icon: "success",
+    toast: true,
+    position: "top-right",
+    showConfirmButton: false,
+    timer: 3000,
+    timerProgressBar: true,
+    title: 'Exito',
+    text: 'Producto agregado al carrito',
+  });
+})
 
 
 
 
 // toastify
 // https://apvarun.github.io/toastify-js/
+
+
 
 let lista = []
 const listaDOM = document.getElementById("lista")
@@ -80,9 +82,9 @@ async function cargarLista() {
   mostrarLista()
 }
 
-// verLista.onclick = cargarLista
+verLista.onclick = cargarLista
 
-// cargarLista()
+cargarLista()
 
 
 

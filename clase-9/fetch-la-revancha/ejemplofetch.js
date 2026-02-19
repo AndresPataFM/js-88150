@@ -1,4 +1,4 @@
-const apiURL = "https://xeno-canto.org/api/2/recordings?query=cnt:argentina"
+const apiURL = "https://xeno-canto.org/api/3/recordings?query=cnt:argentina"
 // es una api sobre cantos de aves: https://xeno-canto.org/explore/api
 
 const listaAves =  document.getElementById("aves")

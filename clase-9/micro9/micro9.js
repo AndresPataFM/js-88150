@@ -17,7 +17,6 @@ document.getElementById('showAlertButton').addEventListener(_____, async () => {
 
 */
 
-"showAlertButton"
 document.getElementById('showAlertButton').addEventListener("click", async () => {
     try {
         // Completar aquí: Utilizar SweetAlert para mostrar un mensaje de éxito
