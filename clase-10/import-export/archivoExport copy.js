@@ -9,9 +9,9 @@ const nombre = "Andrés"
 const helper = {
     saludar: saludar,
     despedir:despedir,
-    nomrbe: nombre
+    nombre: nombre
 }
 
 export default helper
 
-export {saludar, despedir, nombre};
+// export {saludar, despedir, nombre};

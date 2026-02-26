@@ -5,7 +5,7 @@ Presentarás la página web interactiva en JavaScript que vienes trabajando a lo
 
 ## Objetivos Específicos
 - Capturar la interacción del DOM a través de eventos.
-- Guardar y recuperar información de localstorage tales como objetos, arrays de objetos
+- Guardar y recuperar información de session/localstorage tales como objetos, arrays de objetos
 - Crear funciones y/o métodos para realizar operaciones como crear objetos productos, renderizar objetos en el DOM.
 - Efectuar una salida, que es el resultado de los datos procesados en el DOM.
 

@@ -1,6 +1,10 @@
-import { saludar, despedir, nombre } from "/clase-10/import-export/archivoExport.js";
+// import { saludar, despedir, nombre } from "/clase-10/import-export/archivoExport.js";
 
-import sumar from "/clase-10/import-export/exportDefault.js";
+import helper from "/clase-10/import-export/archivoExport copy.js"
+
+// import sumar from "/clase-10/import-export/exportDefault.js";
+
+// console.log(helper)
 
 saludar()
 despedir()

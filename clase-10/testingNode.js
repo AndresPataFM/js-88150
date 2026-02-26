@@ -8,10 +8,11 @@
 // localStorage
 
 
-// const fs = require("node:fs")
+const fs = require("node:fs")
 
 // crear
 // fs.writeFileSync("ejemplo.txt", "Hola, me crearon con node.")
+// fs.writeFileSync("ejemplo.js", "console.log('hello world')")
 
 // leer
 /* fs.readFile("ejemplo.txt", "utf8", (err, data) => {
@@ -21,6 +22,13 @@
   }
   console.log(data);
 }); */
+/* fs.readFile("./clase-9/promesas.js", "utf8", (err, data) => {
+  if (err) {
+    console.error(err);
+    return;
+  }
+  console.log(data);
+}); */
 
 // agregar al final | apend
-// fs.appendFileSync("ejemplo.txt", " A mi me agregaron con node.")
+fs.appendFileSync("ejemplo.txt", " A mi me agregaron con node.")
